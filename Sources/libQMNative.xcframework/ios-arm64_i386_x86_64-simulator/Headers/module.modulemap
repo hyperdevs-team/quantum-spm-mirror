@@ -1,0 +1,4 @@
+module QMNative {
+    header "QMNative.h"
+    export *
+}
