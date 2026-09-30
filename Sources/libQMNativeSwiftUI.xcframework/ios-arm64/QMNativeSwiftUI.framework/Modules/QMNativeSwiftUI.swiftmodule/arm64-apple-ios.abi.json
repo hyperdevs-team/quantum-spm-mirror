@@ -1,0 +1,1740 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "QMNativeSwiftUI",
+    "printedName": "QMNativeSwiftUI",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "QMNativeSwiftUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "QMNativeSwiftUI"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "QMNativeSwiftUI"
+      },
+      {
+        "kind": "Import",
+        "name": "ObjectiveC",
+        "printedName": "ObjectiveC",
+        "declKind": "Import",
+        "moduleName": "QMNativeSwiftUI"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "QMNativeSwiftUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "QMNativeSwiftUI"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "QMNativeSwiftUIMasking",
+        "printedName": "QMNativeSwiftUIMasking",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "Mask",
+            "printedName": "Mask",
+            "children": [
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(content:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Mask",
+                    "printedName": "QMNativeSwiftUI.QMNativeSwiftUIMasking.Mask<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:15QMNativeSwiftUI0aB9UIMaskingV4MaskV"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> τ_0_0",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "typeAttributes": [
+                      "noescape"
+                    ]
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:15QMNativeSwiftUI0aB9UIMaskingV4MaskV7contentAEy_xGxyXE_tcfc",
+                "mangledName": "$s15QMNativeSwiftUI0aB9UIMaskingV4MaskV7contentAEy_xGxyXE_tcfc",
+                "moduleName": "QMNativeSwiftUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+                "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+                "declAttributes": [
+                  "Custom",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "makeUIView",
+                "printedName": "makeUIView(context:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewRepresentableContext",
+                    "printedName": "SwiftUI.UIViewRepresentableContext<QMNativeSwiftUI.QMNativeSwiftUIMasking.Mask<τ_0_0>>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Mask",
+                        "printedName": "QMNativeSwiftUI.QMNativeSwiftUIMasking.Mask<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:15QMNativeSwiftUI0aB9UIMaskingV4MaskV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI26UIViewRepresentableContextV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:15QMNativeSwiftUI0aB9UIMaskingV4MaskV10makeUIView7contextSo0G0C0bC00G20RepresentableContextVyAEy_xGG_tF",
+                "mangledName": "$s15QMNativeSwiftUI0aB9UIMaskingV4MaskV10makeUIView7contextSo0G0C0bC00G20RepresentableContextVyAEy_xGG_tF",
+                "moduleName": "QMNativeSwiftUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+                "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+                "declAttributes": [
+                  "Preconcurrency",
+                  "Custom",
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "updateUIView",
+                "printedName": "updateUIView(_:context:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewRepresentableContext",
+                    "printedName": "SwiftUI.UIViewRepresentableContext<QMNativeSwiftUI.QMNativeSwiftUIMasking.Mask<τ_0_0>>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Mask",
+                        "printedName": "QMNativeSwiftUI.QMNativeSwiftUIMasking.Mask<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:15QMNativeSwiftUI0aB9UIMaskingV4MaskV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI26UIViewRepresentableContextV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:15QMNativeSwiftUI0aB9UIMaskingV4MaskV12updateUIView_7contextySo0G0C_0bC00G20RepresentableContextVyAEy_xGGtF",
+                "mangledName": "$s15QMNativeSwiftUI0aB9UIMaskingV4MaskV12updateUIView_7contextySo0G0C_0bC00G20RepresentableContextVyAEy_xGGtF",
+                "moduleName": "QMNativeSwiftUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+                "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+                "declAttributes": [
+                  "Preconcurrency",
+                  "Custom",
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "sizeThatFits",
+                "printedName": "sizeThatFits(_:uiView:context:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreFoundation.CGSize?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGSize",
+                        "printedName": "CoreFoundation.CGSize",
+                        "usr": "c:@S@CGSize"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProposedViewSize",
+                    "printedName": "SwiftUI.ProposedViewSize",
+                    "usr": "s:7SwiftUI16ProposedViewSizeV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewRepresentableContext",
+                    "printedName": "SwiftUI.UIViewRepresentableContext<QMNativeSwiftUI.QMNativeSwiftUIMasking.Mask<τ_0_0>>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Mask",
+                        "printedName": "QMNativeSwiftUI.QMNativeSwiftUIMasking.Mask<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:15QMNativeSwiftUI0aB9UIMaskingV4MaskV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI26UIViewRepresentableContextV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:15QMNativeSwiftUI0aB9UIMaskingV4MaskV12sizeThatFits_6uiView7contextSo6CGSizeVSg0bC008ProposedJ4SizeV_So6UIViewCAL0O20RepresentableContextVyAEy_xGGtF",
+                "mangledName": "$s15QMNativeSwiftUI0aB9UIMaskingV4MaskV12sizeThatFits_6uiView7contextSo6CGSizeVSg0bC008ProposedJ4SizeV_So6UIViewCAL0O20RepresentableContextVyAEy_xGGtF",
+                "moduleName": "QMNativeSwiftUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+                "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+                "intro_iOS": "16.0",
+                "declAttributes": [
+                  "Preconcurrency",
+                  "Custom",
+                  "AccessControl",
+                  "Available"
+                ],
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:15QMNativeSwiftUI0aB9UIMaskingV4MaskV",
+            "mangledName": "$s15QMNativeSwiftUI0aB9UIMaskingV4MaskV",
+            "moduleName": "QMNativeSwiftUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+            "declAttributes": [
+              "AccessControl",
+              "Custom",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "UIViewRepresentable",
+                "printedName": "UIViewRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "UIViewType",
+                    "printedName": "UIViewType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIView",
+                        "printedName": "UIKit.UIView",
+                        "usr": "c:objc(cs)UIView"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeWitness",
+                    "name": "Coordinator",
+                    "printedName": "Coordinator",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:7SwiftUI19UIViewRepresentableP",
+                "mangledName": "$s7SwiftUI19UIViewRepresentableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "View",
+                "printedName": "View",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "Body",
+                    "printedName": "Body",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Never",
+                        "printedName": "Swift.Never",
+                        "usr": "s:s5NeverO"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:7SwiftUI4ViewP",
+                "mangledName": "$s7SwiftUI4ViewP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "MaskText",
+            "printedName": "MaskText",
+            "children": [
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(content:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MaskText",
+                    "printedName": "QMNativeSwiftUI.QMNativeSwiftUIMasking.MaskText<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:15QMNativeSwiftUI0aB9UIMaskingV8MaskTextV"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> τ_0_0",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "typeAttributes": [
+                      "noescape"
+                    ]
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:15QMNativeSwiftUI0aB9UIMaskingV8MaskTextV7contentAEy_xGxyXE_tcfc",
+                "mangledName": "$s15QMNativeSwiftUI0aB9UIMaskingV8MaskTextV7contentAEy_xGxyXE_tcfc",
+                "moduleName": "QMNativeSwiftUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+                "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+                "declAttributes": [
+                  "Custom",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "makeUIView",
+                "printedName": "makeUIView(context:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewRepresentableContext",
+                    "printedName": "SwiftUI.UIViewRepresentableContext<QMNativeSwiftUI.QMNativeSwiftUIMasking.MaskText<τ_0_0>>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MaskText",
+                        "printedName": "QMNativeSwiftUI.QMNativeSwiftUIMasking.MaskText<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:15QMNativeSwiftUI0aB9UIMaskingV8MaskTextV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI26UIViewRepresentableContextV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:15QMNativeSwiftUI0aB9UIMaskingV8MaskTextV10makeUIView7contextSo0H0C0bC00H20RepresentableContextVyAEy_xGG_tF",
+                "mangledName": "$s15QMNativeSwiftUI0aB9UIMaskingV8MaskTextV10makeUIView7contextSo0H0C0bC00H20RepresentableContextVyAEy_xGG_tF",
+                "moduleName": "QMNativeSwiftUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+                "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+                "declAttributes": [
+                  "Preconcurrency",
+                  "Custom",
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "updateUIView",
+                "printedName": "updateUIView(_:context:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewRepresentableContext",
+                    "printedName": "SwiftUI.UIViewRepresentableContext<QMNativeSwiftUI.QMNativeSwiftUIMasking.MaskText<τ_0_0>>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MaskText",
+                        "printedName": "QMNativeSwiftUI.QMNativeSwiftUIMasking.MaskText<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:15QMNativeSwiftUI0aB9UIMaskingV8MaskTextV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI26UIViewRepresentableContextV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:15QMNativeSwiftUI0aB9UIMaskingV8MaskTextV12updateUIView_7contextySo0H0C_0bC00H20RepresentableContextVyAEy_xGGtF",
+                "mangledName": "$s15QMNativeSwiftUI0aB9UIMaskingV8MaskTextV12updateUIView_7contextySo0H0C_0bC00H20RepresentableContextVyAEy_xGGtF",
+                "moduleName": "QMNativeSwiftUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+                "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+                "declAttributes": [
+                  "Preconcurrency",
+                  "Custom",
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "sizeThatFits",
+                "printedName": "sizeThatFits(_:uiView:context:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreFoundation.CGSize?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGSize",
+                        "printedName": "CoreFoundation.CGSize",
+                        "usr": "c:@S@CGSize"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProposedViewSize",
+                    "printedName": "SwiftUI.ProposedViewSize",
+                    "usr": "s:7SwiftUI16ProposedViewSizeV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewRepresentableContext",
+                    "printedName": "SwiftUI.UIViewRepresentableContext<QMNativeSwiftUI.QMNativeSwiftUIMasking.MaskText<τ_0_0>>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MaskText",
+                        "printedName": "QMNativeSwiftUI.QMNativeSwiftUIMasking.MaskText<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:15QMNativeSwiftUI0aB9UIMaskingV8MaskTextV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI26UIViewRepresentableContextV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:15QMNativeSwiftUI0aB9UIMaskingV8MaskTextV12sizeThatFits_6uiView7contextSo6CGSizeVSg0bC008ProposedK4SizeV_So6UIViewCAL0P20RepresentableContextVyAEy_xGGtF",
+                "mangledName": "$s15QMNativeSwiftUI0aB9UIMaskingV8MaskTextV12sizeThatFits_6uiView7contextSo6CGSizeVSg0bC008ProposedK4SizeV_So6UIViewCAL0P20RepresentableContextVyAEy_xGGtF",
+                "moduleName": "QMNativeSwiftUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+                "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+                "intro_iOS": "16.0",
+                "declAttributes": [
+                  "Preconcurrency",
+                  "Custom",
+                  "AccessControl",
+                  "Available"
+                ],
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:15QMNativeSwiftUI0aB9UIMaskingV8MaskTextV",
+            "mangledName": "$s15QMNativeSwiftUI0aB9UIMaskingV8MaskTextV",
+            "moduleName": "QMNativeSwiftUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+            "declAttributes": [
+              "AccessControl",
+              "Custom",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "UIViewRepresentable",
+                "printedName": "UIViewRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "UIViewType",
+                    "printedName": "UIViewType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIView",
+                        "printedName": "UIKit.UIView",
+                        "usr": "c:objc(cs)UIView"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeWitness",
+                    "name": "Coordinator",
+                    "printedName": "Coordinator",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:7SwiftUI19UIViewRepresentableP",
+                "mangledName": "$s7SwiftUI19UIViewRepresentableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "View",
+                "printedName": "View",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "Body",
+                    "printedName": "Body",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Never",
+                        "printedName": "Swift.Never",
+                        "usr": "s:s5NeverO"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:7SwiftUI4ViewP",
+                "mangledName": "$s7SwiftUI4ViewP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Unmask",
+            "printedName": "Unmask",
+            "children": [
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(content:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Unmask",
+                    "printedName": "QMNativeSwiftUI.QMNativeSwiftUIMasking.Unmask<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:15QMNativeSwiftUI0aB9UIMaskingV6UnmaskV"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> τ_0_0",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "typeAttributes": [
+                      "noescape"
+                    ]
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:15QMNativeSwiftUI0aB9UIMaskingV6UnmaskV7contentAEy_xGxyXE_tcfc",
+                "mangledName": "$s15QMNativeSwiftUI0aB9UIMaskingV6UnmaskV7contentAEy_xGxyXE_tcfc",
+                "moduleName": "QMNativeSwiftUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+                "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+                "declAttributes": [
+                  "Custom",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "makeUIView",
+                "printedName": "makeUIView(context:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewRepresentableContext",
+                    "printedName": "SwiftUI.UIViewRepresentableContext<QMNativeSwiftUI.QMNativeSwiftUIMasking.Unmask<τ_0_0>>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Unmask",
+                        "printedName": "QMNativeSwiftUI.QMNativeSwiftUIMasking.Unmask<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:15QMNativeSwiftUI0aB9UIMaskingV6UnmaskV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI26UIViewRepresentableContextV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:15QMNativeSwiftUI0aB9UIMaskingV6UnmaskV10makeUIView7contextSo0G0C0bC00G20RepresentableContextVyAEy_xGG_tF",
+                "mangledName": "$s15QMNativeSwiftUI0aB9UIMaskingV6UnmaskV10makeUIView7contextSo0G0C0bC00G20RepresentableContextVyAEy_xGG_tF",
+                "moduleName": "QMNativeSwiftUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+                "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+                "declAttributes": [
+                  "Preconcurrency",
+                  "Custom",
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "updateUIView",
+                "printedName": "updateUIView(_:context:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewRepresentableContext",
+                    "printedName": "SwiftUI.UIViewRepresentableContext<QMNativeSwiftUI.QMNativeSwiftUIMasking.Unmask<τ_0_0>>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Unmask",
+                        "printedName": "QMNativeSwiftUI.QMNativeSwiftUIMasking.Unmask<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:15QMNativeSwiftUI0aB9UIMaskingV6UnmaskV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI26UIViewRepresentableContextV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:15QMNativeSwiftUI0aB9UIMaskingV6UnmaskV12updateUIView_7contextySo0G0C_0bC00G20RepresentableContextVyAEy_xGGtF",
+                "mangledName": "$s15QMNativeSwiftUI0aB9UIMaskingV6UnmaskV12updateUIView_7contextySo0G0C_0bC00G20RepresentableContextVyAEy_xGGtF",
+                "moduleName": "QMNativeSwiftUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+                "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+                "declAttributes": [
+                  "Preconcurrency",
+                  "Custom",
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "sizeThatFits",
+                "printedName": "sizeThatFits(_:uiView:context:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreFoundation.CGSize?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGSize",
+                        "printedName": "CoreFoundation.CGSize",
+                        "usr": "c:@S@CGSize"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProposedViewSize",
+                    "printedName": "SwiftUI.ProposedViewSize",
+                    "usr": "s:7SwiftUI16ProposedViewSizeV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewRepresentableContext",
+                    "printedName": "SwiftUI.UIViewRepresentableContext<QMNativeSwiftUI.QMNativeSwiftUIMasking.Unmask<τ_0_0>>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Unmask",
+                        "printedName": "QMNativeSwiftUI.QMNativeSwiftUIMasking.Unmask<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:15QMNativeSwiftUI0aB9UIMaskingV6UnmaskV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI26UIViewRepresentableContextV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:15QMNativeSwiftUI0aB9UIMaskingV6UnmaskV12sizeThatFits_6uiView7contextSo6CGSizeVSg0bC008ProposedJ4SizeV_So6UIViewCAL0O20RepresentableContextVyAEy_xGGtF",
+                "mangledName": "$s15QMNativeSwiftUI0aB9UIMaskingV6UnmaskV12sizeThatFits_6uiView7contextSo6CGSizeVSg0bC008ProposedJ4SizeV_So6UIViewCAL0O20RepresentableContextVyAEy_xGGtF",
+                "moduleName": "QMNativeSwiftUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+                "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+                "intro_iOS": "16.0",
+                "declAttributes": [
+                  "Preconcurrency",
+                  "Custom",
+                  "AccessControl",
+                  "Available"
+                ],
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:15QMNativeSwiftUI0aB9UIMaskingV6UnmaskV",
+            "mangledName": "$s15QMNativeSwiftUI0aB9UIMaskingV6UnmaskV",
+            "moduleName": "QMNativeSwiftUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+            "declAttributes": [
+              "AccessControl",
+              "Custom",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "UIViewRepresentable",
+                "printedName": "UIViewRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "UIViewType",
+                    "printedName": "UIViewType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIView",
+                        "printedName": "UIKit.UIView",
+                        "usr": "c:objc(cs)UIView"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeWitness",
+                    "name": "Coordinator",
+                    "printedName": "Coordinator",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:7SwiftUI19UIViewRepresentableP",
+                "mangledName": "$s7SwiftUI19UIViewRepresentableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "View",
+                "printedName": "View",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "Body",
+                    "printedName": "Body",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Never",
+                        "printedName": "Swift.Never",
+                        "usr": "s:s5NeverO"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:7SwiftUI4ViewP",
+                "mangledName": "$s7SwiftUI4ViewP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Encrypt",
+            "printedName": "Encrypt",
+            "children": [
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(content:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Encrypt",
+                    "printedName": "QMNativeSwiftUI.QMNativeSwiftUIMasking.Encrypt<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:15QMNativeSwiftUI0aB9UIMaskingV7EncryptV"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> τ_0_0",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "typeAttributes": [
+                      "noescape"
+                    ]
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:15QMNativeSwiftUI0aB9UIMaskingV7EncryptV7contentAEy_xGxyXE_tcfc",
+                "mangledName": "$s15QMNativeSwiftUI0aB9UIMaskingV7EncryptV7contentAEy_xGxyXE_tcfc",
+                "moduleName": "QMNativeSwiftUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+                "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+                "declAttributes": [
+                  "Custom",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Function",
+                "name": "makeUIView",
+                "printedName": "makeUIView(context:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewRepresentableContext",
+                    "printedName": "SwiftUI.UIViewRepresentableContext<QMNativeSwiftUI.QMNativeSwiftUIMasking.Encrypt<τ_0_0>>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Encrypt",
+                        "printedName": "QMNativeSwiftUI.QMNativeSwiftUIMasking.Encrypt<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:15QMNativeSwiftUI0aB9UIMaskingV7EncryptV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI26UIViewRepresentableContextV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:15QMNativeSwiftUI0aB9UIMaskingV7EncryptV10makeUIView7contextSo0G0C0bC00G20RepresentableContextVyAEy_xGG_tF",
+                "mangledName": "$s15QMNativeSwiftUI0aB9UIMaskingV7EncryptV10makeUIView7contextSo0G0C0bC00G20RepresentableContextVyAEy_xGG_tF",
+                "moduleName": "QMNativeSwiftUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+                "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+                "declAttributes": [
+                  "Preconcurrency",
+                  "Custom",
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "updateUIView",
+                "printedName": "updateUIView(_:context:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewRepresentableContext",
+                    "printedName": "SwiftUI.UIViewRepresentableContext<QMNativeSwiftUI.QMNativeSwiftUIMasking.Encrypt<τ_0_0>>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Encrypt",
+                        "printedName": "QMNativeSwiftUI.QMNativeSwiftUIMasking.Encrypt<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:15QMNativeSwiftUI0aB9UIMaskingV7EncryptV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI26UIViewRepresentableContextV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:15QMNativeSwiftUI0aB9UIMaskingV7EncryptV12updateUIView_7contextySo0G0C_0bC00G20RepresentableContextVyAEy_xGGtF",
+                "mangledName": "$s15QMNativeSwiftUI0aB9UIMaskingV7EncryptV12updateUIView_7contextySo0G0C_0bC00G20RepresentableContextVyAEy_xGGtF",
+                "moduleName": "QMNativeSwiftUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+                "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+                "declAttributes": [
+                  "Preconcurrency",
+                  "Custom",
+                  "AccessControl"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "sizeThatFits",
+                "printedName": "sizeThatFits(_:uiView:context:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreFoundation.CGSize?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGSize",
+                        "printedName": "CoreFoundation.CGSize",
+                        "usr": "c:@S@CGSize"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProposedViewSize",
+                    "printedName": "SwiftUI.ProposedViewSize",
+                    "usr": "s:7SwiftUI16ProposedViewSizeV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewRepresentableContext",
+                    "printedName": "SwiftUI.UIViewRepresentableContext<QMNativeSwiftUI.QMNativeSwiftUIMasking.Encrypt<τ_0_0>>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Encrypt",
+                        "printedName": "QMNativeSwiftUI.QMNativeSwiftUIMasking.Encrypt<τ_0_0>",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "GenericTypeParam",
+                            "printedName": "τ_0_0"
+                          }
+                        ],
+                        "usr": "s:15QMNativeSwiftUI0aB9UIMaskingV7EncryptV"
+                      }
+                    ],
+                    "usr": "s:7SwiftUI26UIViewRepresentableContextV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:15QMNativeSwiftUI0aB9UIMaskingV7EncryptV12sizeThatFits_6uiView7contextSo6CGSizeVSg0bC008ProposedJ4SizeV_So6UIViewCAL0O20RepresentableContextVyAEy_xGGtF",
+                "mangledName": "$s15QMNativeSwiftUI0aB9UIMaskingV7EncryptV12sizeThatFits_6uiView7contextSo6CGSizeVSg0bC008ProposedJ4SizeV_So6UIViewCAL0O20RepresentableContextVyAEy_xGGtF",
+                "moduleName": "QMNativeSwiftUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+                "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+                "intro_iOS": "16.0",
+                "declAttributes": [
+                  "Preconcurrency",
+                  "Custom",
+                  "AccessControl",
+                  "Available"
+                ],
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:15QMNativeSwiftUI0aB9UIMaskingV7EncryptV",
+            "mangledName": "$s15QMNativeSwiftUI0aB9UIMaskingV7EncryptV",
+            "moduleName": "QMNativeSwiftUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Content where Content : SwiftUI.View>",
+            "declAttributes": [
+              "AccessControl",
+              "Custom",
+              "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "UIViewRepresentable",
+                "printedName": "UIViewRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "UIViewType",
+                    "printedName": "UIViewType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIView",
+                        "printedName": "UIKit.UIView",
+                        "usr": "c:objc(cs)UIView"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeWitness",
+                    "name": "Coordinator",
+                    "printedName": "Coordinator",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:7SwiftUI19UIViewRepresentableP",
+                "mangledName": "$s7SwiftUI19UIViewRepresentableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "View",
+                "printedName": "View",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "Body",
+                    "printedName": "Body",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Never",
+                        "printedName": "Swift.Never",
+                        "usr": "s:s5NeverO"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:7SwiftUI4ViewP",
+                "mangledName": "$s7SwiftUI4ViewP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:15QMNativeSwiftUI0aB9UIMaskingV",
+        "mangledName": "$s15QMNativeSwiftUI0aB9UIMaskingV",
+        "moduleName": "QMNativeSwiftUI",
+        "intro_iOS": "13.0",
+        "declAttributes": [
+          "AccessControl",
+          "Custom",
+          "Available"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "QMNativeSwiftUI",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "QMNativeSwiftUI"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "QMNativeSwiftUI"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "View",
+        "printedName": "View",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "qmMask",
+            "printedName": "qmMask()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP08QMNativeaB0E6qmMaskQryF",
+            "mangledName": "$s7SwiftUI4ViewP08QMNativeaB0E6qmMaskQryF",
+            "moduleName": "QMNativeSwiftUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "declAttributes": [
+              "Custom",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "qmMaskText",
+            "printedName": "qmMaskText()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP08QMNativeaB0E10qmMaskTextQryF",
+            "mangledName": "$s7SwiftUI4ViewP08QMNativeaB0E10qmMaskTextQryF",
+            "moduleName": "QMNativeSwiftUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "declAttributes": [
+              "Custom",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "qmEncrypt",
+            "printedName": "qmEncrypt()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP08QMNativeaB0E9qmEncryptQryF",
+            "mangledName": "$s7SwiftUI4ViewP08QMNativeaB0E9qmEncryptQryF",
+            "moduleName": "QMNativeSwiftUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "declAttributes": [
+              "Custom",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "qmUnmask",
+            "printedName": "qmUnmask()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP08QMNativeaB0E8qmUnmaskQryF",
+            "mangledName": "$s7SwiftUI4ViewP08QMNativeaB0E8qmUnmaskQryF",
+            "moduleName": "QMNativeSwiftUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "declAttributes": [
+              "Custom",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "qmAddContext",
+            "printedName": "qmAddContext(view:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP08QMNativeaB0E12qmAddContext4viewQryp_tF",
+            "mangledName": "$s7SwiftUI4ViewP08QMNativeaB0E12qmAddContext4viewQryp_tF",
+            "moduleName": "QMNativeSwiftUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "declAttributes": [
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "qmAddContext",
+            "printedName": "qmAddContext(name:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SwiftUI4ViewP08QMNativeaB0E12qmAddContext4nameQrSS_tF",
+            "mangledName": "$s7SwiftUI4ViewP08QMNativeaB0E12qmAddContext4nameQrSS_tF",
+            "moduleName": "QMNativeSwiftUI",
+            "genericSig": "<τ_0_0 where τ_0_0 : SwiftUI.View>",
+            "sugared_genericSig": "<Self where Self : SwiftUI.View>",
+            "declAttributes": [
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7SwiftUI4ViewP",
+        "mangledName": "$s7SwiftUI4ViewP",
+        "moduleName": "SwiftUICore",
+        "genericSig": "<τ_0_0.Body : SwiftUI.View>",
+        "sugared_genericSig": "<Self.Body : SwiftUI.View>",
+        "intro_Macosx": "10.15",
+        "intro_iOS": "13.0",
+        "intro_tvOS": "13.0",
+        "intro_watchOS": "6.0",
+        "declAttributes": [
+          "Preconcurrency",
+          "TypeEraser",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "Available",
+          "Available",
+          "Available",
+          "Available",
+          "Custom"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/gitlab\/builds\/t1_bre-Qi\/0\/engineering\/capture\/native\/ios\/instrument\/framework\/QMNative\/QMNativeSwiftUI\/SwiftPublic.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9245,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/t1_bre-Qi\/0\/engineering\/capture\/native\/ios\/instrument\/framework\/QMNative\/QMNativeSwiftUI\/SwiftPublic.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9267,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/t1_bre-Qi\/0\/engineering\/capture\/native\/ios\/instrument\/framework\/QMNative\/QMNativeSwiftUI\/SwiftPublic.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9288,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/t1_bre-Qi\/0\/engineering\/capture\/native\/ios\/instrument\/framework\/QMNative\/QMNativeSwiftUI\/SwiftPublic.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9308,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/t1_bre-Qi\/0\/engineering\/capture\/native\/ios\/instrument\/framework\/QMNative\/QMNativeSwiftUI\/QMSwiftUIContextModifier\/QMSwiftUIContextManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 951,
+      "length": 5,
+      "value": "230.0"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/t1_bre-Qi\/0\/engineering\/capture\/native\/ios\/instrument\/framework\/QMNative\/QMNativeSwiftUI\/QMSwiftUIContextModifier\/QMSwiftUIContextManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 959,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/t1_bre-Qi\/0\/engineering\/capture\/native\/ios\/instrument\/framework\/QMNative\/QMNativeSwiftUI\/QMSwiftUIContextModifier\/QMSwiftUIContextManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 973,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/t1_bre-Qi\/0\/engineering\/capture\/native\/ios\/instrument\/framework\/QMNative\/QMNativeSwiftUI\/QMSwiftUIContextModifier\/QMSwiftUIContextManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 984,
+      "length": 4,
+      "value": "94.0"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/t1_bre-Qi\/0\/engineering\/capture\/native\/ios\/instrument\/framework\/QMNative\/QMNativeSwiftUI\/QMSwiftUIContextModifier\/QMSwiftUIContextManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 991,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/t1_bre-Qi\/0\/engineering\/capture\/native\/ios\/instrument\/framework\/QMNative\/QMNativeSwiftUI\/QMSwiftUIContextModifier\/QMSwiftUIContextManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 1005,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/t1_bre-Qi\/0\/engineering\/capture\/native\/ios\/instrument\/framework\/QMNative\/QMNativeSwiftUI\/QMSwiftUIContextModifier\/QMSwiftUIContextManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 1056,
+      "length": 5,
+      "value": "230.0"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/t1_bre-Qi\/0\/engineering\/capture\/native\/ios\/instrument\/framework\/QMNative\/QMNativeSwiftUI\/QMSwiftUIContextModifier\/QMSwiftUIContextManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 1064,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/t1_bre-Qi\/0\/engineering\/capture\/native\/ios\/instrument\/framework\/QMNative\/QMNativeSwiftUI\/QMSwiftUIContextModifier\/QMSwiftUIContextManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 1078,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/t1_bre-Qi\/0\/engineering\/capture\/native\/ios\/instrument\/framework\/QMNative\/QMNativeSwiftUI\/QMSwiftUIContextModifier\/QMSwiftUIContextManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 1089,
+      "length": 4,
+      "value": "94.0"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/t1_bre-Qi\/0\/engineering\/capture\/native\/ios\/instrument\/framework\/QMNative\/QMNativeSwiftUI\/QMSwiftUIContextModifier\/QMSwiftUIContextManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 1096,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/gitlab\/builds\/t1_bre-Qi\/0\/engineering\/capture\/native\/ios\/instrument\/framework\/QMNative\/QMNativeSwiftUI\/QMSwiftUIContextModifier\/QMSwiftUIContextManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 1112,
+      "length": 3,
+      "value": "0.0"
+    }
+  ]
+}
