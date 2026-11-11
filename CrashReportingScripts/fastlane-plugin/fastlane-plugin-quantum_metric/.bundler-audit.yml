@@ -1,0 +1,28 @@
+---
+# Accepted, time-boxed advisory exceptions for this lockfile.
+# Every entry must carry a justification and a removal trigger.
+
+# CVE-2026-85396: path traversal in rubyzip < 3.4.0 (Zip::Entry#extract).
+#
+# Unfixable by bumping: rubyzip is transitive via fastlane, and every published
+# fastlane release through 2.239.0 (2026-09-04) pins
+# `rubyzip >= 2.0.0, < 3.0.0`. No resolution satisfies both that pin and the
+# advisory's `>= 3.4.0` fix, so `bundle update rubyzip` cannot clear it.
+#
+# Not reachable from this plugin:
+#   * The plugin never calls rubyzip. quantum_metric_helper.rb shells out to
+#     `ditto -c -k` to zip and `ditto -x -k` to extract.
+#   * fastlane's only rubyzip use is `Zip::File.open` + `read` in
+#     fastlane_core/lib/fastlane_core/ipa_file_analyser.rb. The vulnerable API,
+#     `Zip::Entry#extract`, is never called.
+#   * The lockfile is not shipped in the gem (gemspec `spec.files` is
+#     lib/**/* plus README and LICENSE), so this affects our CI and dev trees,
+#     not what a customer resolves.
+#
+# REMOVAL TRIGGER: fastlane PR #30176 merged to master on 2026-09-07 and moves
+# the gemspec to `rubyzip >= 3.4.0, < 4.0.0`. When the next fastlane release
+# ships it, run `bundle update fastlane rubyzip` and delete this file.
+#   https://github.com/fastlane/fastlane/pull/30176
+#   https://github.com/fastlane/fastlane/issues/30175
+ignore:
+  - CVE-2026-85396
